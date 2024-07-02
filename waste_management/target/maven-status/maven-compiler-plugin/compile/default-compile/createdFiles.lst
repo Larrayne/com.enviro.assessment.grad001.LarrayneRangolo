@@ -1,0 +1,13 @@
+com\enviro365\waste_management\service\RecyclingTipService.class
+com\enviro365\waste_management\WasteManagementApplication.class
+com\enviro365\waste_management\model\DisposalGuideline.class
+com\enviro365\waste_management\model\RecyclingTip.class
+com\enviro365\waste_management\service\DisposalGuidelineService.class
+com\enviro365\waste_management\service\WasteCategoryService.class
+com\enviro365\waste_management\repository\WasteCategoryRepository.class
+com\enviro365\waste_management\controller\DisposalGuidelineController.class
+com\enviro365\waste_management\controller\WasteManagementController.class
+com\enviro365\waste_management\model\WasteCategory.class
+com\enviro365\waste_management\repository\DisposalGuidelineRepository.class
+com\enviro365\waste_management\controller\RecyclingTipsController.class
+com\enviro365\waste_management\repository\RecyclingTipRepository.class

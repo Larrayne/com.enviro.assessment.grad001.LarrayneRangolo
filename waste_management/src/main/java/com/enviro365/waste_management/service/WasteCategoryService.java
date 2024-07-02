@@ -27,8 +27,14 @@ public class WasteCategoryService {
         return repository.save(category);
     }
 
+    public List<WasteCategory> getAllWasteCategories(){
+        return repository.findAll();
+    }
+
 
     public void deleteById(Long id){
         repository.deleteById(id);
     }
+
+
 }

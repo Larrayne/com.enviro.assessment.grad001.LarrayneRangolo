@@ -29,4 +29,6 @@ public class DisposalGuidelineService {
     public void deleteById(Long id){
         repository.deleteById(id);
     }
+
+
 }

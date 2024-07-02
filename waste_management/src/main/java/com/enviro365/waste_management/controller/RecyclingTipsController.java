@@ -19,7 +19,7 @@ public class RecyclingTipsController {
     public RecyclingTipService service;
 
     @GetMapping
-    public List<RecyclingTip>getReccyclingTips(){
+    public List<RecyclingTip>getRecyclingTips(){
         return service.findAll();
     }
 
@@ -38,7 +38,6 @@ public class RecyclingTipsController {
         if(!service.findById(id).isPresent()){
             return ResponseEntity.notFound().build();
         }
-        tip.setId(id);
         return ResponseEntity.ok(service.save(tip));
     }
 

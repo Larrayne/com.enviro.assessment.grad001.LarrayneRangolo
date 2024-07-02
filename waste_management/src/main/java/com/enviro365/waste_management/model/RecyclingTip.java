@@ -15,7 +15,14 @@ public class RecyclingTip {
     @NotBlank
     private String tip;
 
-    public Long getId(){
+    public RecyclingTip() {}
+
+    public RecyclingTip(Long id, String tip) {
+        this.id = id;
+        this.tip = tip;
+    }
+
+    public Long getTip(){
         return id;
     }
 
@@ -23,12 +30,14 @@ public class RecyclingTip {
         return tip;
     }
 
-    public void setId(Long id) {
+    public void setTip(Long id) {
         this.id = id;
     }
 
     public void setName(String name){
         this.tip = tip;
     }
+
+
 
 }
